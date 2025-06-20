@@ -28,4 +28,4 @@ X_transformed = pipeline.fit_transform(X)
 
 # Save the pipeline
 joblib.dump(pipeline, 'etl_pipeline.pkl')
-print("✅ ETL pipeline created and saved!")
+print(" ETL pipeline created and saved!")
